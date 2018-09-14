@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center mb-4 app-title">Currency converter</h1>
+                <div id="first" class="input-group input-group-lg">
+                    <input id="RSDInput" type="number" class="form-control" placeholder="Amount">
+                    <div id="RSD" class="input-group-addon starter">RSD</div>
+                    <div id="RSD1" class="input-group-addon result-a"><span id="RSDToEUR"></span>EUR</div>
+                    <div id="RSD2" class="input-group-addon result-b"><span id="RSDToUSD"></span>USD</div>
+                    <div id="RSD3" class="input-group-addon result-c"><span id="RSDToGBP"></span>GBP</div>
+                    <div id="RSD4" class="input-group-addon result-d"><span id="RSDToCHF"></span>CHF</div>
+                </div>
+                <div id="second" class="input-group input-group-lg">
+                    <input id="EURInput" type="number" class="form-control" placeholder="Amount">
+                    <div id="EUR" class="input-group-addon starter">EUR</div>
+                    <div id="EUR1" class="input-group-addon result-a"><span id="EURToUSD"></span>USD</div>
+                    <div id="EUR2" class="input-group-addon result-b"><span id="EURToGBP"></span>GBP</div>
+                    <div id="EUR3" class="input-group-addon result-c"><span id="EURToCHF"></span>CHF</div>
+                    <div id="EUR4" class="input-group-addon result-d"><span id="EURToRSD"></span>RSD</div>
+                </div>
+                <div id="third" class="input-group input-group-lg">
+                    <input id="USDInput" type="number" class="form-control" placeholder="Amount">
+                    <div id="USD" class="input-group-addon starter">USD</div>
+                    <div id="USD1" class="input-group-addon result-a"><span id="USDToGBP"></span>GBP</div>
+                    <div id="USD2" class="input-group-addon result-b"><span id="USDToCHF"></span>CHF</div>
+                    <div id="USD3" class="input-group-addon result-c"><span id="USDToRSD"></span>RSD</div>
+                    <div id="USD4" class="input-group-addon result-d"><span id="USDToEUR"></span>EUR</div>
+                </div>
+                <div id="fourth" class="input-group input-group-lg">
+                    <input id="GBPInput" type="number" class="form-control" placeholder="Amount">
+                    <div id="GBP" class="input-group-addon starter">GBP</div>
+                    <div id="GBP1" class="input-group-addon result-a"><span id="GBPToCHF"></span>CHF</div>
+                    <div id="GBP2" class="input-group-addon result-b"><span id="GBPToRSD"></span>RSD</div>
+                    <div id="GBP3" class="input-group-addon result-c"><span id="GBPToEUR"></span>EUR</div>
+                    <div id="GBP4" class="input-group-addon result-d"><span id="GBPToUSD"></span>USD</div>
+                </div>
+                <div id="fifth" class="input-group input-group-lg">
+                    <input id="CHFInput" type="number" class="form-control" placeholder="Amount">
+                    <div id="CHF" class="input-group-addon starter">CHF</div>
+                    <div id="CHF1" class="input-group-addon result-a"><span id="CHFToRSD"></span>RSD</div>
+                    <div id="CHF2" class="input-group-addon result-b"><span id="CHFToEUR"></span>EUR</div>
+                    <div id="CHF3" class="input-group-addon result-c"><span id="CHFToUSD"></span>USD</div>
+                    <div id="CHF4" class="input-group-addon result-d"><span id="CHFToGBP"></span>GBP</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <pre>
+            Developed by Zeks
+            September, 2018
+        </pre>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="effects.js" type="text/javascript"></script>
+</body>
+
+</html>
